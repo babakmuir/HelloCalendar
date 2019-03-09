@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (4.8.0)
+  - JTAppleCalendar (7.1.6)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - JTAppleCalendar (from `https://github.com/patchthecode/JTAppleCalendar.git`, branch `master`)
+  - SVProgressHUD
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - SVProgressHUD
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  JTAppleCalendar:
+    :branch: master
+    :git: https://github.com/patchthecode/JTAppleCalendar.git
+
+CHECKOUT OPTIONS:
+  JTAppleCalendar:
+    :commit: 1db39cd4c2eea1df7cbb844c0b6a2e453d7da4b0
+    :git: https://github.com/patchthecode/JTAppleCalendar.git
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  JTAppleCalendar: abb30678f42a4ef8a340a932b1dcb8c85a33dac2
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 16ed10777165e560bb5f22f96ac2ac7a293ca4b9
+
+COCOAPODS: 1.5.3
